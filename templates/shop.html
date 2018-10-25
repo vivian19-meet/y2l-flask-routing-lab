@@ -1,0 +1,14 @@
+<!doctype html>
+    <html>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        <body>
+            <h1> welcome to my shop!</h1>
+            <p> My items are: </p>
+            <h2> objects </h2>
+            <ul>
+                {% for objects in objects %}
+                <li> {{objects}} </li>
+                {% endfor %}
+            </ul>
+        </body>
+    </html>
